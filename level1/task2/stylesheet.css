@@ -1,0 +1,117 @@
+*{
+    padding: 10px;
+    margin: 10px;
+    box-sizing: border-box;
+    background-color: black;
+}
+body{
+    justify-content: center;
+    display: inline;
+}
+
+.head{
+    color: rgb(6, 6, 6);
+    box-sizing: border-box;
+}
+
+
+button{
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: blueviolet;
+    color: aliceblue;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: flex;
+}
+
+button:hover{
+    background-color: rgb(235, 10, 130);
+}
+
+
+/* greeting msg */
+
+.container{
+    background-color: rgb(32, 37, 37);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(177, 16, 105);
+}
+
+.greeting_msg{
+    font-size: 24px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 30px;
+    background-color: rgb(177, 16, 105);
+    color: rgb(15, 15, 15);
+}
+
+#currentTime{
+    font-size: 24px;
+    color: rgb(251, 7, 80);
+    font-style: italic;
+    margin-top: 5px;
+    font-style: italic;
+    text-align: center;
+    text-transform: capitalize;
+    
+}
+h1{
+    font-style: italic;
+    color: rgb(199, 7, 61);
+    
+}
+
+p{
+    font-size: 20px;
+    color: wheat;
+    margin-top: auto;
+}
+
+
+/* calculator */
+
+.calculator{
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type= 'number'], .calculator button{
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+}
+
+.calculator button{
+    background-color: rgb(202, 26, 87);
+    color: #030202;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(68, 117, 251);
+
+}
+
+#result{
+    font-size: 18px;
+    font-weight: bold;
+    color: aliceblue;
+}
+
+#number1{
+    color:#ccc;
+}
+
+#number2{
+    color: #ccc;
+}
