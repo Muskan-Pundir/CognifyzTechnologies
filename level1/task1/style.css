@@ -1,0 +1,182 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(51, 58, 51);
+}
+
+/* header section */
+
+header{
+    background-color:  rgb(239, 21, 14);
+    color: rgb(248, 113, 90);
+    padding: 20px;
+    display: flex;
+}
+
+/* Navigation bar */
+
+.topnav{
+    overflow: hidden;
+    }
+
+.topnav a{
+    color:rgb(15, 16, 15);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    display: flex;
+    float:left;
+	align-items: center;
+	height: 30px;
+	padding: 0 5vw;
+
+   
+}
+.topnav a:hover {
+    background-color:#121111;
+    color:#ff0a0a;
+}
+
+.topnav a.active{
+    background-color:#121111;
+    color:#e53935;
+}
+
+section{
+    padding: 20px;
+}
+
+
+/* section part  */
+.head{
+    background-color: #0b0b0b;
+    height: 100%;
+    width: 100%;
+    padding-top: 30px;
+}
+
+.head h1{
+    color: #ed2c1b;
+    text-align: center;
+    font-size: 36px;
+    transition: width 0.5s ease-in-out;
+}
+
+.head p{
+    font-size: 20px;
+    color: #f6f3eb;
+    line-height: 1.6;
+    text-align: justify;
+    margin: 20px;
+}
+
+.head p span{
+    color: #ee2727;
+    font-size: 34px;
+
+}
+
+/* image part */
+
+
+.image img{
+    width: 200px;
+    height: 200px;
+  border-radius:8px;
+  border: 1px solid red;
+   
+}
+.image {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top:90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/* form part using class */
+
+.head2{
+    height: 150%;
+    width: 100%;
+    background-color: #0b0b0b;
+}
+.head2 p{
+    font-size: 35px;
+    color: #f6f3eb;
+    line-height: 1.6;
+    text-align: justify;
+    margin: 20px;
+    text-align: center;
+    
+       
+}
+.head2 p span{
+    color: #ee2727;
+    font-size: 40px;
+
+
+}
+.form_head p{
+    font-size: 24px;
+}
+
+/* hr{
+    border: 1px solid red;
+    margin-bottom: 25px;
+} */
+
+*{
+    box-sizing: border-box;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form_head{
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    box-sizing: border-box;
+    
+}
+
+label{
+    color: #f6f3eb;
+}
+
+input[type=text], input[type=password]{
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #4d4a4a;
+
+}
+
+input[type=text]:focus,
+input[type=password]:focus{
+    background-color: #f6f3eb;
+    outline: none;
+}
+
+/* submit button */
+
+.submitbtn{
+    background-color: #e53935;
+    color: #0b0b0b;
+    padding: 16px 20px;
+    margin: 8px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+.submitbtn:hover{
+    opacity: 1;
+    color: #f6f3eb;
+}
